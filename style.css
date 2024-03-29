@@ -67,7 +67,7 @@ ul {
     height: 150px;
     background-color: #e5e7eb;
     display: flex;
-  }
+}
 
   button {
     background-color: #3882f6;
@@ -76,5 +76,40 @@ ul {
     padding: 4px 16px;
     border-radius: 5px;
     border-style: none;
-    
-  }
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.square-container {
+    display: flex;
+    gap: 32px;
+}
+
+.square {
+    width: 140px;
+    height: 140px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.top-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+}
+
+.square-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    text-align: center;
+}
