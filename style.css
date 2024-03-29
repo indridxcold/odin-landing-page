@@ -53,4 +53,27 @@ ul {
     font-size: 18px;
     color: #e5e7eb;
     width: 300px;
+    margin-bottom: 8px;
 }
+
+.test {
+    justify-content: center;
+    padding: 0 48px;
+    margin-bottom: 48px;
+}
+
+#rectangle {
+    width: 400px;
+    height: 150px;
+    background-color: #e5e7eb;
+    display: flex;
+  }
+
+  button {
+    background-color: #3882f6;
+    color: #f9fAF8;
+    font-weight: bold;
+    padding: 4px 16px;
+    border-radius: 8px;
+    
+  }
