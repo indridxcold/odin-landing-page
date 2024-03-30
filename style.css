@@ -63,7 +63,7 @@ ul {
 }
 
 #rectangle {
-    width: 400px;
+    max-width: 800px;
     height: 150px;
     background-color: #e5e7eb;
     display: flex;
